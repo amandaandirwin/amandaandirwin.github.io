@@ -3,6 +3,8 @@
     height: 100%;
 }
 
+
+
 .navbar {
     min-height:70px;
 }
@@ -36,6 +38,14 @@
 .sixth{
     background-image:url(../images/prewedding/sixth.png);
 }
+
+.rsvp {
+    background-image:url(../images/invitation.png);
+    background-repeat:no-repeat;
+    background-position: top center;
+    padding-top:357px;
+}
+
 .headline-container {
     background-color:#1FCDCB;
     height:100%;

@@ -25,20 +25,22 @@
         <div class="col-lg-10 center-block">
             <div class="navbar navbar-default navbar-fixed-top" role="navigation">
                 <div class="container text-center">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#mandi">The Bride &amp; Groom</a></li>
-                        <li><a href="#bridalparty">Bridal Party</a></li>
-                        <li><a href="#wedding">Wedding</a></li>
-                    </ul>
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="">Amanda <img src="images/colophon.png" width="50" /> Irwin</a>
+                    <div style="padding-left:10%">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#mandi">The Bride &amp; Groom</a></li>
+                            <li><a href="#bridalparty">Bridal Party</a></li>
+                            <li><a href="#wedding">Wedding</a></li>
+                            <li>
+                                    <a class="highlighted " href="">
+                                        Amanda <img src="images/colophon.png"
+                                                    width="50" /> Irwin
+                                    </a>
+                            </li>
+                            <li><a href="#registry">Registry</a></li>
+                            <li><a href="#rsvp">RSVP</a></li>
+                            <li><a href="#photos">Photos</a></li>
+                        </ul>
                     </div>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#registry">Registry</a></li>
-                        <li><a href="#rsvp">RSVP</a></li>
-                        <li><a href="#photos">Photos</a></li>
-                    </ul>
-
                 </div>
             </div>
         </div>
@@ -78,14 +80,14 @@
         </div>
         <div class="row third"></div>
         <div class="row" style="background-color:white;">
-
+        <a name="wedding" id="wedding"></a>
             <iframe class="col-xs-10 center-block" style="margin-bottom:-300px;padding:0;width:100%;border:0;height:600px;"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31360.00151518825!2d-61.46384932250977!3d10.734468196697742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3605f6292aea55%3A0x87ee83cae783c6cd!2sThe+North+Deck!5e0!3m2!1sen!2s!4v1400946953826"
                     frameborder="0"></iframe>
 
             <div class="weddinglocationdetails">
                 <h4>Amanda &amp; Irwin</h4>
-                <strong>August 2,  2014. <br />10:00 am, North Deck</strong>
+                <strong>August 1,  2014. <br />10:00 am, North Deck</strong>
             </div>
         </div> <!-- /row -->
         <div class="row fourth"></div>
@@ -177,40 +179,60 @@
         <div class="row sixth"></div>
         <a name="rsvp" id="rsvp"></a>
         <div class="row">
-            <div class="col-lg-10 center-block">
-                <h3>RSVP</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-10 center-block">
-                <div class="row" style="margin:10px;">
-                    <div class="row">
-                        <div class="col-lg-1"><label>Name</label></div>
-                        <div class="col-lg-1"><input type="text" placeholder="Enter full name" /></div>
+            <div class="col-lg-10 center-block rsvp">
+                <h3 class="text-center h3">RSVP</h3>
+                <script type="text/javascript">var submitted = false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe"
+                        style="display:none;" onload='if(submitted){window.alert(" Success! Your response has been received");}'></iframe>
+                <div dir="ltr" class="well-sm text-center">
+                    <p>Will you be joining us? Please let us know by filling out the form below</p>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-1"><label>Attending</label></div>
-                        <div class="col-lg-1"><select><option value="Yes">Yes</option><option>No</option></select></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-2">
-                            <input type="submit" value="Send" />
+                    <form action="https://docs.google.com/forms/d/1ZDH50tLwpP8z3lv8DmYQSEV68-hlfQDs0bfphC8hCnY/formResponse"
+                          method="POST" target="_self" onsubmit="submitted=true;" target="hidden_iframe">
+                        <div class="ss-form-question" role="listitem">
+                            <div dir="ltr" class="well">
+                                <div class="ss-form-entry">
+                                    <div class="label label-default">
+                                        Name
+                                    </div>
+
+                                    <input type="text" name="entry.1377172335" value="" class="form-control" id="entry_1377172335" dir="auto" aria-label="Name  " title="">
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    </div>
-            </div>
+                        <div class="ss-form-question errorbox-good" role="listitem">
+                            <div dir="ltr" class="ss-item  ss-text">
+                                <div class="well">
+                                    <div class="label label-info">
+                                        Attending
+                                    </div>
+                                    <input type="text" name="entry.1035916731" value="" class="form-control" id="entry_1035916731" dir="auto" aria-label="Attending  " title="">
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" name="pageHistory" value="0">
+                        <input type="hidden" name="fbzx" value="-2931104418150563749">
+                        <input type="submit" name="submit" class="btn-embossed" value="Submit" id="ss-submit" />
+                    </form>
+                </div>
         </div>
         <a name="photos" id="photos"></a>
         <div class="row">
             <div class="col-lg-10 center-block">
-                <embed type="application/x-shockwave-flash" 
-                       src="https://photos.gstatic.com/media/slideshow.swf" 
-                       width="800" height="400" flashvars="host=picasaweb.google.com&hl=en_US&feat=flashalbum&RGB=0x000000&feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F109002633061581061018%2Falbumid%2F6019048577529168465%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" 
-                       pluginspage="http://www.macromedia.com/go/getflashplayer"></embed>
+                <embed class="center-block" type="application/x-shockwave-flash" src="https://photos.gstatic.com/media/slideshow.swf" width="800" height="400" flashvars="host=picasaweb.google.com&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=https%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2F109002633061581061018%2Falbumid%2F6019048577529168465%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" pluginspage="http://www.macromedia.com/go/getflashplayer">
             </div>
 
+        </div>        
+    <div class="row">
+        <div class="col-lg-10 center-block">
+            <iframe class="center-block text-center"
+                    src="http://8tracks.com/mixes/4192630/player_v3/autoplay"
+                    width="300" height="250" style="border: 0px none;"></iframe>
+            <!--<p class="_8t_embed_p" style="font-size: 11px; line-height: 12px;"><a href="">Love &amp; Marriage</a> from <a href="">anon-508050895</a> on <a href="http://8tracks.com">8tracks Radio</a>.</p>-->
         </div>
-        <div class="row all"></div>
+    </div>
+    
+    <div class="row all"></div>
     </div> <!-- /container -->
 
     <footer>
@@ -243,15 +265,26 @@
     <!--<script src="http://vjs.zencdn.net/4.3/video.js"></script>-->
     <script src="js/application.js"></script>
     <script type="text/javascript" src="js/supersized.core.3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/jquery.ba-bbq.js"></script>
     <script type="text/javascript">
+        $(document)
+   .on('click', 'a[href*="#"]', function () {
+       if (this.hash && this.pathname === location.pathname) {
+           $.bbq.pushState('#/' + this.hash.slice(1));
+           return false;
+       }
+   })
+   .ready(function () {
+       $(window).bind('hashchange', function (event) {
+           var tgt = location.hash.replace(/^#\/?/, '');
+           if (document.getElementById(tgt)) {
+               $.smoothScroll({ scrollTarget: '#' + tgt, offset: -70 });
+           }
+       });
 
-        //jQuery(function ($) {
-
-        //    $.supersized({
-        //        slides: [{ image: 'images/wagm.png', title: 'Image Credit: Andrea Boney' }]
-        //    });
-        //});
-
+       $(window).trigger('hashchange');
+   });
     </script>
 </body>
 </html>
