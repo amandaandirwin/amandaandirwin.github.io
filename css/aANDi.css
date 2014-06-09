@@ -20,11 +20,11 @@
     background-image:url(../images/prewedding/first.png);
 }
 .second{
-    background-image:url(../images/prewedding/second.png);
+    background-image:url(../images/prewedding/two.jpg);
 }
 
 .third{
-    background-image:url(../images/prewedding/third.png);
+    background-image:url(../images/prewedding/four.jpg);
 }
 
 .fourth{
@@ -111,7 +111,7 @@ h3 {
 }
 
 h4 {
-	font: 400 16px/16px "Oswald", sans-serif;
+	font: 400 14px "Oswald", sans-serif;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	padding: 0 0 20px 0;
@@ -139,12 +139,37 @@ h4 {
     border-left:solid thin gray;
     background-position:top center;
     background-repeat:no-repeat;
-}
+    background-size:130px 200px;
+   }
 
 .bridalparty .man {
     background-image:url(../images/bridalparty/groomman.jpg);
 }
 
+.chief {
+    background-color:#b38b6d;
+}
+
+.bridalparty .maid:nth-child(3) {
+        background-image:url(../images/bridalparty/agilbert.png);
+}
+.bridalparty .maid:nth-child(4) {
+        background-image:url(../images/bridalparty/aboney.png);
+}
+.bridalparty .maid:nth-child(8) {
+        background-image:url(../images/bridalparty/kince.png);
+}
+.bridalparty .maid:nth-child(9) {
+        background-image:url(../images/bridalparty/sstewart.png);
+}
+
+
+.bridalparty .man:nth-child(4) {
+        background-image:url(../images/bridalparty/rince.png);
+}
+.bridalparty .man:nth-child(7) {
+        background-image:url(../images/bridalparty/igriffith.png);
+}
 .registry {
     background-color: rgba(255,0,0,0.5);
 }
