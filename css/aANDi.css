@@ -8,13 +8,13 @@
 .navbar {
     min-height:70px;
 }
-.first, .second, .third, .fourth, .fifth, .sixth {
+.cover {
     height:1024px;
-      background: url(images/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+        background: url(images/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .first {
     background-image:url(../images/prewedding/first.png);
@@ -156,6 +156,9 @@ h4 {
 .bridalparty .maid:nth-child(4) {
         background-image:url(../images/bridalparty/aboney.png);
 }
+.bridalparty .maid:nth-child(5) {
+        background-image:url(../images/bridalparty/afboney.png);
+}
 .bridalparty .maid:nth-child(8) {
         background-image:url(../images/bridalparty/kince.png);
 }
@@ -169,6 +172,9 @@ h4 {
 }
 .bridalparty .man:nth-child(7) {
         background-image:url(../images/bridalparty/igriffith.png);
+}
+.bridalparty .man:nth-child(8) {
+        background-image:url(../images/bridalparty/kweekes.png);
 }
 .registry {
     background-color: rgba(255,0,0,0.5);
