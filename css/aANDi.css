@@ -132,7 +132,7 @@ h4 {
 }
 
 .bridalparty .maid, .bridalparty .man  {
-    background-image:url(../images/bridalparty/bridesmaids.jpg);
+    background-image:url(../images/bridalparty/maid.png);
     margin-left:5px;
     padding-top: 200px;
     width:130px;
@@ -143,18 +143,24 @@ h4 {
    }
 
 .bridalparty .man {
-    background-image:url(../images/bridalparty/groomman.jpg);
+    background-image:url(../images/bridalparty/man.png);
 }
 
 .chief {
     background-color:#b38b6d;
 }
 
+.bridalparty .maid:nth-child(3) {
+        background-image:url(../images/bridalparty/agilbert.png);
+}
 .bridalparty .maid:nth-child(4) {
         background-image:url(../images/bridalparty/aboney.png);
 }
 .bridalparty .maid:nth-child(5) {
         background-image:url(../images/bridalparty/afboney.png);
+}
+.bridalparty .maid:nth-child(7) {
+        background-image:url(../images/bridalparty/dmacdougall.png);
 }
 .bridalparty .maid:nth-child(8) {
         background-image:url(../images/bridalparty/kince.png);
@@ -164,7 +170,11 @@ h4 {
 }
 
 
-.bridalparty .man:nth-child(4) {
+.bridalparty .man:nth-child(3) { 
+        background-image:url(../images/bridalparty/kjohnson.png);
+}
+
+.bridalparty .man:nth-child(4) { 
         background-image:url(../images/bridalparty/rince.png);
 }
 .bridalparty .man:nth-child(7) {
