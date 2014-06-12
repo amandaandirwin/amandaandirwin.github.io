@@ -183,6 +183,13 @@ h4 {
 .bridalparty .man:nth-child(8) {
         background-image:url(../images/bridalparty/kweekes.png);
 }
+
+.bridalparty .man:nth-child(6) {
+        background-image:url(../images/bridalparty/smayers.png);
+}
+.bridalparty .man:nth-child(9) {
+        background-image:url(../images/bridalparty/nwalker.png);
+}
 .registry {
     background-color: rgba(255,0,0,0.5);
 }
